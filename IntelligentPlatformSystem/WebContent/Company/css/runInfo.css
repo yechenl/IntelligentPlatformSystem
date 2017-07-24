@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+.operation{
+	height:30px;
+	width:99%;
+	margin-top:18px;
+}
+.operation .operating{
+	display:inline-block;
+	margin-left:20px;
+}
+.operation .operating li{
+	float:left;
+	line-height:30px;
+	padding:0 15px;
+}
+.operation .operating li{
+	display:inline-block;	
+}
+.operation .operating li:first-child{
+	background:url(../icon/delete.png)no-repeat;
+	background-position:-4px center;
+}
+.operation .operating li:nth-child(2){
+	background:url(../icon/export.png)no-repeat;
+	background-position:-4px center;
+}
+.operation .operating li:nth-child(3){
+	background:url(../icon/print.png)no-repeat;
+	background-position:-4px center;
+}
+
+.search{
+	line-height:30px;
+	margin-right:50px;
+}
+.search .search_box{
+	padding:0 5px;
+	color:#666;
+}
+.search .button{
+	padding:0px 14px;
+}
+/* 表格样式 */
+.form{
+	margin:20px auto;
+	width:100%;
+}
+.form ul li{
+	display:inline-block;
+	line-height:30px;
+	padding:0 10px;
+}
+.form table{
+	width:100%;
+	text-align:center;
+	font-size:12px;
+}
+.form table th{
+	background:#276ca3;
+	color:#fff;
+	font-size:12px;
+	padding:5px 0px;
+	border-right:1px solid #b8edff;
+}
+.form table tr th:last-child {
+	border-right:1px solid #ccc;
+	width:20%;
+}
+.form table tr{
+	border:1px solid #ccc;
+}
+.form table td ul{
+	display:inline-block;
+	text-align:center;
+}
+.page_footer{
+	display:inline-block;
+	margin-top:10px;
+	float:right;
+	font-size:12px;
+}
+.page_footer p{
+	display:inline-block;
+}
+.page_footer a {
+	border:1px solid #5791bf;
+	padding:2px 8px;
+	text-align:center;
+}
+.page_active{
+	background:#5791bf;
+	color:#fff;
+}
+.page_footer a:hover{
+	background:#5791bf;
+	color:#fff;
+}
+.jump{
+	display:inline-block;
+}
+.jump input{
+	width:34px;
+	padding:1px 2px;
+}
+
+
+
+
+
+
+

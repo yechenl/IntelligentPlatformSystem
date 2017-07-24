@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+.problem{
+	margin-top:35px;
+	text-align:center;
+}
+.problem p{
+	font-size:12px;
+	line-heigh:30px;
+	display:inline-block;
+}
+.big_back{
+    margin-top:-1px;
+	width:100%;
+	height:500px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FF0000',endColorStr='#F9F900',gradientType='0');
+	background: -moz-linear-gradient(top, #FF0000, #F9F900);
+	background: -o-linear-gradient(top,#FF0000, #F9F900);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#799bdf), to(#fff));
+}
+.login_form{
+	margin:0 auto;
+	width:800px;
+	background:rgba(255, 255, 255, 0.22);
+	height:500px;
+}
+.login_position{
+	margin:0 auto;
+	width:90%;
+	border-bottom:1px solid #7D9EE0;
+	height:40px;
+	line-height:40px;
+	font-size:12px;
+}
+.login_position p,.login_position h3{
+	display:inline-block;
+}
+.login_position h3{
+	font-weight:normal;
+}
+.login_position p{
+	color:#333;
+}
+
+.login_list{
+	overflow:auto;
+	zoom:1;
+	width:60%;
+	margin:15px auto;
+}
+.login_list label{
+	float:left;
+}
+.login_list span{
+	width:80px;
+	height:28px;
+	text-align:right;
+	display:inline-block;
+}
+.login_list .text{
+	height:28px;
+	width:200px;
+	word-spacing:8px;
+	letter-spacing: 1px;
+}
+.login_list .text1{
+	height:28px;
+	width:100px;
+	word-spacing:8px;
+	letter-spacing: 1px;
+}
+.login_list .msg_f{
+	float:left;
+	margin-left:6px;
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+	display:none;
+}
+.login_list label .w_random{
+	background:#ccc;
+	height:29px;
+	width:90px;
+	display:inline-block;
+	vertical-align: middle;
+	text-align:center;
+	line-height:29px;
+}
+
+.login_list .btn{
+	border:none;
+	 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#feda71', endColorstr='#febb4a');
+    background:-webkit-gradient(linear, left top, left bottom, from(#feda71), to(#febb4a));
+    background:-moz-linear-gradient(top,  #feda71, #febb4a);
+    border-color:#f5b74e #e5a73e #d6982f;
+    color:#fff;
+    text-shadow:0 1px 0 #fedd9b;
+    -webkit-box-shadow:0 1px 1px #d3d3d3, inset 0 1px 0 #fee395;
+    -moz-box-shadow:0 1px 1px #d3d3d3, inset 0 1px 0 #fee395;
+    box-shadow:0 1px 1px #d3d3d3, inset 0 1px 0 #fee395;
+}
+
+.reset_pwd1{
+	display:none;
+}
+/* 当验证码通过之后，显示重置密码的div.reset_pwd2 */
+.reset_pwd2{
+	
+	/* display:none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
